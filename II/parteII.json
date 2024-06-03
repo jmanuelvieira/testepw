@@ -1,0 +1,36 @@
+{
+    "curso": {
+      "nome": "Engenharia Informática",
+      "uc": [
+        {
+          "codigo": "INF101",
+          "nome": "Introdução à Programação",
+          "docentes": 
+          [
+            {
+              "nome": "Ana Silva",
+              "email": "ana.silva@universidade.pt",
+              "departamento": "Ciência da Computação"
+            },
+            {
+              "nome": "João Pereira",
+              "email": "joao.pereira@universidade.pt",
+              "departamento": "Ciência da Computação"
+            }
+          ]
+        },
+        {
+          "codigo": "INF102",
+          "nome": "Estruturas de Dados",
+          "docentes": [
+            {
+              "nome": "Carlos Santos",
+              "email": "carlos.santos@universidade.pt",
+              "departamento": "Ciência da Computação"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

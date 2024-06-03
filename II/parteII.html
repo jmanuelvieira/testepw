@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo getElementById</title>
+</head>
+<body>
+    <div id="meuDiv">Este é o meu div!</div>
+    <script>
+        var elemento = document.getElementById("meuDiv");
+        elemento.style.color = "blue";
+    </script>
+</body>
+</html>
+--------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo getElementsByTagName</title>
+</head>
+<body>
+    <p>Parágrafo 1</p>
+    <p>Parágrafo 2</p>
+    <p>Parágrafo 3</p>
+    <script>
+        var paragrafos = document.getElementsByTagName("p");
+        for (var i = 0; i < paragrafos.length; i++) {
+            paragrafos[i].style.color = "red";
+        }
+    </script>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo getElementsByClassName</title>
+</head>
+<body>
+    <div class="minhaClasse">Div 1</div>
+    <div class="minhaClasse">Div 2</div>
+    <div class="minhaClasse">Div 3</div>
+    <script>
+        var elementos = document.getElementsByClassName("minhaClasse");
+        for (var i = 0; i < elementos.length; i++) {
+            elementos[i].style.fontWeight = "bold";
+        }
+    </script>
+</body>
+</html>
+

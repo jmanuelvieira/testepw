@@ -1,0 +1,30 @@
+<curso>
+    <nome>Engenharia Informática</nome>
+    <uc>
+        <codigo>INF101</codigo>
+        <nome>Introdução à Programação</nome>
+        <docentes>
+            <docente>
+                <nome>Ana Silva</nome>
+                <email>ana.silva@universidade.pt</email>
+                <departamento>Ciência da Computação</departamento>
+            </docente>
+            <docente>
+                <nome>João Pereira</nome>
+                <email>joao.pereira@universidade.pt</email>
+                <departamento>Ciência da Computação</departamento>
+            </docente>
+        </docentes>
+    </uc>
+    <uc>
+        <codigo>INF102</codigo>
+        <nome>Estruturas de Dados</nome>
+        <docentes>
+            <docente>
+                <nome>Carlos Santos</nome>
+                <email>carlos.santos@universidade.pt</email>
+                <departamento>Ciência da Computação</departamento>
+            </docente>
+        </docentes>
+    </uc>
+</curso>
